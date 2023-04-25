@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 20%;
+    .chart{}
+
+    .run{
+        margin-top: 10px;
+    }
+    .information{
+        background-color: rgb(216, 205, 176);
+        width: 400px;
+        height: 300px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        position: relative;
+        .display{
+            padding: 30px 30px;
+            .city{
+                font-size: 40px;
+                margin: 10px;
+            }
+            .flex{
+                display: flex;
+                margin: auto;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0px 20px;
+                
+            }
+        }
+        .position{
+            position: absolute;
+            top: 90px;
+            right: 40px;
+            font-size: 26px;
+            i{
+                position: absolute;
+                right: 10px;
+                font-size: 120px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>天氣預報</h1>
+        </div>
+        <div class="chart">
+            <select class="count" name="" id="count">
+                <option value="taipei">台北</option>
+                <option value="taoyuan">桃園</option>
+                <option value="taichun">台中</option>
+                <option value="tainan">台南</option>
+            </select>
+        </div>
+        <!-- <div>
+            <button class="run" id="run">run</button>
+        </div> -->
+        <div>
+            <div class="information">
+                <div class="display" id="display">
+                    <div>
+                        <p class="city" id="city">台北市</p>
+                    </div>
+                    <div>
+                        <p class="city2" id="city2">晴時多雲</p>
+                    </div>
+                    <div class="flex">
+                        <p class="city3" id="city3">18</p>
+                        <p>~</p>
+                        <p class="city4" id="city4">24</p>
+                    </div>
+                    <div class="flex">
+                        <p>降雨機率</p>
+                        <p class="city5" id="city5">10</p>
+                        <p>%</p>
+                    </div>
+                </div>
+                <div class="position">
+                    <i id="ccc" class="fa-solid fa-cloud-sun fa-5x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
